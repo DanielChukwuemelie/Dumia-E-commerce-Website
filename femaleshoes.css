@@ -1,0 +1,1062 @@
+/* Body */
+body{
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0; 
+}
+
+/* Pre wrapper styling */
+.pre-wrapper{
+    background-color: rgb(232, 231, 231);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: 20px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.h4-div {
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+    height: 100%;
+}
+
+.sm-logo{
+    color: rgb(255, 141, 27);
+    margin-left: 80px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.h4-dumia{
+    margin-top: 6%;
+    margin-bottom: 12%;
+    margin-left: -160%;
+    display: flex;
+    font-family: Cambria;
+    font-weight: bolder;
+    font-size: 16px;
+    padding-bottom: 0.5%;
+    cursor: pointer;
+}
+
+/* Menu wrapper after the prewrapper styling*/
+.menu-wrapper{
+    background-color: white;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 200px auto 300px;
+    gap: 20px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.h2-dumia{
+    display: flex;
+    margin-left: 80px;
+    font-family: Cambria;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.search-bar{
+    width: 450px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 90px;
+}
+
+.search-btn{
+    margin-left: 0.5%;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 141, 27);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color:rgb(167, 167, 167) ;
+}
+
+.label-div{
+    margin-right: 90%;
+    justify-content: center;
+    display: flex;
+}
+
+.account-img{
+    margin-left: 20px;
+}
+
+.help-img{
+    margin-left: 20px;
+}
+
+.cart-img{
+    margin-left: 20px;
+}
+
+.account-label{
+    margin-left: 5px;
+    font-family: Cambria;
+    font-weight: 500;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.account-label:hover{
+    color: rgb(255, 141, 27) ;
+}
+
+.help-label{
+    margin-left: 5px;
+    font-family: Cambria;
+    font-weight: 500;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.help-label:hover{
+    color: rgb(255, 141, 27) ;
+}
+
+.cart-label{
+    margin-left: 5px;
+    font-family: Cambria;
+    font-weight: 500;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.cart-label:hover{
+    color: rgb(255, 141, 27) ;
+}
+
+select{
+    border: none;
+}
+
+select:hover{
+    color: rgb(255, 141, 27) ;
+}
+
+/* Styling for the call container */
+.call-header{
+    display: grid;
+    max-width: 80.5%;
+    grid-template-columns: auto;
+    background-color: rgb(255, 183, 27);
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 110px;
+}
+
+.call-header h3{
+    color: white;
+    font-size: bold;
+    font-family: Cambria;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Styling the first product conatiner with a header alongside it */
+.female-header1{
+    background: white;
+    max-width: 80.5%;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 1%;
+    margin-left: 110px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.female-header1 h3{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Lucida Sans;
+    color: black;
+    margin-left: 20px;
+}
+
+.female-header1 a{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(255, 141, 27);
+    margin-right: 20px;
+    margin-top: -3.5%;
+
+}
+
+.prod-female1{
+    background: white;
+    max-width: 79%;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px; /*you can also use 'gap'*/
+    margin-top: 0%; 
+    margin-left: 8.15%;
+    margin-bottom: 2%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.prod-female1 .female1{
+    background: whitesmoke;
+    text-align: center;
+    padding: 18px;
+    border: 3px solid whitesmoke;
+    border-radius: 6px;
+}
+
+/* Styling each of the childs specifically */
+.prod-female1 .female1:nth-child(1){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}
+
+.prod-female1 .female1:nth-child(2){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female1 .female1:nth-child(3){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female1 .female1:nth-child(4){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female1 .female1:nth-child(5){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}  
+
+.female-image1{
+    margin-bottom: -13px;
+}
+
+.female1 h4{
+    margin-bottom: 2px;
+}
+
+.female1 a{
+    background-color: rgb(8, 7, 7);
+    color: white;
+    padding: 8px 14px;
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    border-radius: 8px;
+    width: 70px;
+    text-decoration: none;
+}
+
+.female1 a:hover{
+    background-color: rgb(255, 141, 27);
+    color: white ;
+}
+
+.female1:hover{
+    background-color: white;
+    color: rgb(255, 141, 27);
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all 1s ease;
+    border: 3px solid rgb(255, 141, 27) ;
+} 
+
+/* Styling of the side bar for female shoes and their products */
+
+.fs-sidebar{
+    max-width: 100%;
+    margin-top: 1%;
+    margin-left: 110px;
+    display: grid;
+    grid-template-rows: auto;
+    width: 19%;
+}
+
+.fs-list{
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.fs-sidebar .fs-list ul li a{
+    text-decoration: none;
+    font-size: 13x;
+    font-weight: 100;
+    margin-left: 3%;
+    cursor: pointer;
+    color: rgb(19, 19, 19);
+}
+
+.fs-sidebar .fs-list ul li label{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 100;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+.fs-sidebar .fs-list ul li{
+    padding: 5px 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 12px;
+    color: #48484c;
+}
+
+.search-fs{
+    height: 25px;
+    width: 200px;
+    border-radius: 20px;
+    color: #48484c;
+    border: 1px solid #48484c;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.fs-sidebar .fs-list .list-head{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: -1%;
+    color: #48484c;
+}
+
+.ship-abroad{
+    color: white;
+    background-color: rgb(38, 38, 167);
+    background-size: 10px;
+    padding: 3px;
+}
+
+
+/* Styling the second product conatiner with a header alongside it */
+.female-header2{
+    background: white;
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: -72.65%;
+    margin-left: 28.5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.female-header2 h3{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Lucida Sans;
+    color: black;
+    margin-left: 20px;
+}
+
+.female-header2 label{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 60em; /* Used em here becuase it is more effective 
+                          whilst maintaing small didgits */
+    margin-top: 61%;
+} 
+
+.female-header2 .small-p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Lucida Sans;
+    color: black;
+    margin-left: 20px;
+    padding-bottom: 1%;
+}
+
+.female-header2 h3:nth-child(1){
+    grid-column: span 2; 
+}
+
+.female-header2 .label-div:nth-child(2){
+    grid-column: span 2; 
+}  
+
+.female-header2 .small-p:nth-child(3){
+    grid-column: span 2; 
+}  
+
+.female-header .female-logo:nth-child(4){
+    grid-column: span 2; 
+}  
+
+select{
+    border: none;
+}
+
+.female-header2 label select:hover{
+    color: rgb(255, 141, 27);
+}
+
+.female-header2 label:hover{
+    color: rgb(255, 141, 27);
+}
+
+.female-header2 label select option:hover{
+    color: rgb(255, 141, 27);
+    background-color: #b1b1b1;
+}
+
+.prod-female2{
+    background: white;
+    max-width: 58.5%;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-gap: 15px; /*you can also use 'gap'*/
+    margin-top: 0.05%; 
+    margin-left: 28.5%;
+    margin-bottom: 2%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.prod-female2 .female2{
+    background: whitesmoke;
+    text-align: center;
+    padding: 18px;
+    border: 3px solid whitesmoke;
+    border-radius: 6px;
+}
+
+/* Styling each of the childs specifically */
+.prod-female2 .female2:nth-child(1){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}
+
+.prod-female2 .female2:nth-child(2){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(3){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(4){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(5){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(6){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}
+
+.prod-female2 .female2:nth-child(7){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(8){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(9){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(10){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(11){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}
+
+.prod-female2 .female2:nth-child(12){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(13){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(14){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(15){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(16){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}
+
+.prod-female2 .female2:nth-child(17){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(18){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(19){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(20){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female2 .female2:nth-child(21){
+    grid-column: span 7; 
+    height: 170px;
+    width: 160px;
+} 
+
+
+.female-image2{
+    margin-bottom: -13px;
+}
+
+.female2 h4{
+    margin-bottom: 2px;
+}
+
+.female2 a{
+    background-color: rgb(8, 7, 7);
+    color: white;
+    padding: 8px 14px;
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    border-radius: 8px;
+    width: 70px;
+    text-decoration: none;
+}
+
+.female2 a:hover{
+    background-color: rgb(255, 141, 27);
+    color: white ;
+}
+
+.female2:hover{
+    background-color: white;
+    color: rgb(255, 141, 27);
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all 1s ease;
+    border: 3px solid rgb(255, 141, 27) ;
+} 
+
+/* Styling the last product conatiner with a header alongside it for recently viewed */
+.female-header3{
+    background: white;
+    max-width: 80.5%;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 1%;
+    margin-left: 110px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.female-header3 h3{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Lucida Sans;
+    color: black;
+    margin-left: 20px;
+}
+
+.female-header3 a{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(255, 141, 27);
+    margin-right: 20px;
+    margin-top: -3.5%;
+
+}
+
+.prod-female3{
+    background: white;
+    max-width: 79%;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px; /*you can also use 'gap'*/
+    margin-top: 0%; 
+    margin-left: 8.15%;
+    margin-bottom: 2%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.prod-female3 .female3{
+    background: whitesmoke;
+    text-align: center;
+    padding: 18px;
+    border: 3px solid whitesmoke;
+    border-radius: 6px;
+}
+
+/* Styling each of the childs specifically */
+.prod-female3 .female3:nth-child(1){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}
+
+.prod-female3 .female3:nth-child(2){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female3 .female3:nth-child(3){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}  
+
+/* .prod-female3 .female3:nth-child(4){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}  
+
+.prod-female3 .female3:nth-child(5){
+    grid-column: span 1; 
+    height: 170px;
+    width: 160px;
+}   */
+
+.female-image3{
+    margin-bottom: -13px;
+}
+
+.female3 h4{
+    margin-bottom: 2px;
+}
+
+.female3 a{
+    background-color: rgb(8, 7, 7);
+    color: white;
+    padding: 8px 14px;
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    border-radius: 8px;
+    width: 70px;
+    text-decoration: none;
+}
+
+.female3 a:hover{
+    background-color: rgb(255, 141, 27);
+    color: white ;
+}
+
+.female3:hover{
+    background-color: white;
+    color: rgb(255, 141, 27);
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all 1s ease;
+    border: 3px solid rgb(255, 141, 27) ;
+} 
+
+/* Footer */
+.foot-wrapper1{
+    background: #313133;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 300px 600px 400px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 20px;
+}
+
+.foot-div1{
+    margin-left: 60px;
+    font-family: Cambria;
+    display: flex;
+    font-size: x-large;
+    cursor: pointer;
+    margin-top: -7%;
+}
+
+.foot-div2{
+    font-family: Cambria;
+    cursor: pointer;
+    font-size: small;
+}
+
+.foot-div2 p{
+    font-size: small;
+    margin-top: -1.5%;
+}
+
+.foot-email{
+    height: 35px;
+    width: 240px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Lucida Sans;
+    color: gray;
+    padding: 7px;
+}
+
+.foot-div2 button{
+    height: 49px;
+    width: 93px;
+    border: 0.1px solid;
+    border-radius: 4px;
+    border-color: white;
+    font-size: 12px;
+    font-family: Lucida Sans;
+    color: white;
+    background-color: rgba(17, 16, 16, 0.8);
+    padding: 7px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.foot-div2 button:hover{
+    color: rgb(255, 141, 27);
+    border: 1px soild;
+    border-color: rgb(255, 141, 27);
+}
+
+.foot-checkbox{
+    margin-left: -0.35%;
+    cursor: pointer;
+}
+ 
+.foot-checkbox:hover{
+   background-color: rgb(255, 141, 27) ;
+}
+ 
+.foot-div2 label{
+    color: grey;
+}
+
+.foot-div2 a{
+    text-decoration: none;
+    color: rgb(255, 141, 27);
+    margin-left: 3%;
+
+}
+
+.foot-div3{
+    margin-top: -1%;
+}
+
+.h4-foot2{
+    font-family: Cambria;
+    display: flex;
+    font-size: medium;
+    margin-left: 1%;
+}
+
+.foot-div3 p{
+    font-family: Cambria;
+    font-size: small;
+    margin-left: 7%;
+    margin-top: -3%;
+}
+
+.foot-div3 a img{
+    margin-left: 8%;
+}
+
+/* Second part of the footer */
+.foot-wrapper2{
+    background: #48484c;
+    color: white;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 30px;
+    margin-top: -2%;
+}
+
+.foot-wrapper2 .foot-div{
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling each of the childs specifically */
+.foot-wrapper2 .foot-div:nth-child(1){
+    grid-column: 1/span 2; 
+}
+
+.foot-wrapper2 .foot-div:nth-child(2){
+    grid-column: 3/span 2; 
+}
+
+.foot-wrapper2 .foot-div:nth-child(3){
+    grid-column: 5/span 2; 
+}
+
+.foot-wrapper2 .foot-div:nth-child(4){
+    grid-column: 8/span 2; 
+}
+
+.foot-wrapper2 .foot-div:nth-child(5){
+    grid-column: 1/span 2; 
+}
+
+.foot-wrapper2 .foot-div:nth-child(6){
+    grid-column: 3/span 2; 
+}
+
+/* First List */
+.foot4-h1 h1{
+    font-size: small;
+    font-weight: bold;
+    font-family: Lucida Sans;
+    margin-left: -39%;
+}
+
+.foot-list1 ul{
+    list-style: none;
+    margin-left: 20%;
+    margin-top: -1%;
+    text-align: justify;
+}
+
+.foot-list1 ul li a{
+    font-family: Lucida Sans;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    margin-left: -18%;   
+}
+
+.foot-list1 ul li a:hover{
+    color: rgb(255, 141, 27);
+}
+
+/* Second list */
+.foot5-h1 h1{
+    font-size: small;
+    font-weight: bold;
+    font-family: Lucida Sans;
+    margin-left: -34%;
+    margin-top: 10%;
+}
+
+.foot-list2 ul{
+    list-style: none;
+    margin-left: 19%;
+    margin-top: -1%;
+    text-align: justify;
+}
+
+.foot-list2 ul li a{
+    font-family: Lucida Sans;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    margin-left: -15%;   
+}
+
+.foot-list2 ul li a:hover{
+    color: rgb(255, 141, 27);
+}
+
+/* Third list */
+.foot6-h1 h1{
+    font-size: small;
+    font-weight: bold;
+    font-family: Lucida Sans;
+    margin-left: -33%;
+    margin-top: 3%;
+}
+
+.foot-list3 ul{
+    list-style: none;
+    margin-left: 19%;
+    margin-top: -1%;
+    text-align: justify;
+}
+
+.foot-list3 ul li a{
+    font-family: Lucida Sans;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    margin-left: -15%;   
+}
+
+.foot-list3 ul li a:hover{
+    color: rgb(255, 141, 27);
+}
+
+/* Fourth list */
+.foot7-h1 h1{
+    font-size: small;
+    font-weight: bold;
+    font-family: Lucida Sans;
+    margin-left: -43%;
+    margin-top: 3%;
+}
+
+.foot-list4 ul{
+    list-style: none;
+    margin-left: 19%;
+    margin-top: -1%;
+    text-align: justify;
+}
+
+.foot-list4 ul li a{
+    font-family: Lucida Sans;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    margin-left: -40%;   
+}
+
+.foot-list4 ul li a:hover{
+    color: rgb(255, 141, 27);
+}
+
+/* Fifth list */
+.foot8-h1 h1{
+    font-size: small;
+    font-weight: bold;
+    font-family: Lucida Sans;
+    margin-left: -20%;
+    margin-top: 7%;
+}
+
+.foot-list5 ul{
+    list-style: none;
+    margin-top: -1%;
+    text-align: justify;
+}
+
+.foot-list5 ul li a{
+    font-family: Lucida Sans;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    margin-left: -44%;   
+}
+
+.foot-list5 ul li a:hover{
+    color: rgb(255, 141, 27);
+}
+
+/* Sixth list */
+.foot9-h1 h1{
+    font-size: small;
+    font-weight: bold;
+    font-family: Lucida Sans;
+    margin-left: -38%;
+    margin-top: 7%;
+}
+
+.foot-social{
+    gap: 30px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+/* Seventh list */
+.foot10-h1 h1{
+    font-size: small;
+    font-weight: bold;
+    font-family: Lucida Sans;
+    margin-left: 6%;
+    margin-top: 7%;
+}
+
+.foot-payment{
+    gap: 30px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
+}
